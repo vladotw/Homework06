@@ -72,7 +72,6 @@ public class Main {
             System.out.println("Високосный год: " + i);
         }
 
-
         System.out.println();
         System.out.println();
     }
@@ -82,6 +81,9 @@ public class Main {
         System.out.println("Задача_6");
         System.out.println();
 
+        for (int i = 7; i < 100; i = i + 7) {
+            System.out.println(i);
+        }
 
         System.out.println();
         System.out.println();
