@@ -68,6 +68,10 @@ public class Main {
         System.out.println("Задача_5");
         System.out.println();
 
+        for (int i = 1904; i < 2096; i = i + 4) {
+            System.out.println("Високосный год: " + i);
+        }
+
 
         System.out.println();
         System.out.println();
