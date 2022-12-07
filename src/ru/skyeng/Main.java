@@ -93,5 +93,9 @@ public class Main {
 
         System.out.println("Задача_7");
         System.out.println();
+
+        for (int i = 1; i < 1000; i = i * 2) {
+            System.out.println(i);
+        }
     }
 }
