@@ -128,7 +128,7 @@ public class Main {
         System.out.println("Задача 9");
         System.out.println();
         int monthlyContribution = 29_000;
-        int total = 0;
+        double total = 0;
 
         for (int i = 1; i <= 12; i++) {
             total = total + total/100;
