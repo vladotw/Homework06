@@ -42,6 +42,10 @@ public class Main {
         System.out.println("Задача_3");
         System.out.println();
 
+        for (int i = 0; i < 17; i = i + 2) {
+            System.out.println(i);
+        }
+
 
         System.out.println();
         System.out.println();
