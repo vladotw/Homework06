@@ -29,6 +29,9 @@ public class Main {
         System.out.println("Задача_2");
         System.out.println();
 
+        for (int i = 10; i > 1; i--) {
+            System.out.println(i);
+        }
 
         System.out.println();
         System.out.println();
