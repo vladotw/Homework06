@@ -46,7 +46,6 @@ public class Main {
             System.out.println(i);
         }
 
-
         System.out.println();
         System.out.println();
     }
@@ -56,6 +55,9 @@ public class Main {
         System.out.println("Задача_4");
         System.out.println();
 
+        for (int i = 10; i > -10; i--) {
+            System.out.println(i);
+        }
 
         System.out.println();
         System.out.println();
