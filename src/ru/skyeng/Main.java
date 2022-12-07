@@ -127,6 +127,15 @@ public class Main {
 
         System.out.println("Задача 9");
         System.out.println();
+        int monthlyAccumulation = 29_000;
+        int total = 0;
+
+        for (int i = 1; i <= 12; i++) {
+            total = total + total/100;
+            total = total + monthlyAccumulation;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total +
+                    " рублей");
+        }
 
         System.out.println();
         System.out.println();
