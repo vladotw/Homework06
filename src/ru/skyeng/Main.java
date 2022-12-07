@@ -127,12 +127,12 @@ public class Main {
 
         System.out.println("Задача 9");
         System.out.println();
-        int monthlyAccumulation = 29_000;
+        int monthlyContribution = 29_000;
         int total = 0;
 
         for (int i = 1; i <= 12; i++) {
             total = total + total/100;
-            total = total + monthlyAccumulation;
+            total = total + monthlyContribution;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total +
                     " рублей");
         }
@@ -145,6 +145,12 @@ public class Main {
 
         System.out.println("Задача 10");
         System.out.println();
+
+        for (int i = 1; i <= 10; i++) {
+            int result = 2 * i;
+
+            System.out.println("2 * " + i + " = " + result);
+        }
 
         System.out.println();
         System.out.println();
